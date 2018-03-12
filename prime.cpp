@@ -3,14 +3,14 @@ using namespace std;
 
 int main()
 {
-	int num;
+	int number;
 	int flag = 0;
 	cout<<"Enter a number: ";
 	cin>>num;
 
-	for(int i=2; i<=num/2; i++)
+	for(int i=2; i<=number/2; i++)
 	{
-		if(num%i == 0)
+		if(number%i == 0)
 		{
 			flag = 1;
 			break;
